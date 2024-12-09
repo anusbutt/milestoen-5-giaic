@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 3200px;
+    background-color: #c2d8ef;
+}
+
+h1 {
+    text-align: center;
+    color: #581d1d;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #A07855FF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+}
+
+fieldset{
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #D4B996FF; 
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+input,textarea {
+    width: calc(100% - 1%);
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #63958e;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 50px;
+    background: #D4B996FF;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .5s ease;
+    text-decoration: none;
+    color: rgb(5, 5, 51);
+}
+
+button:hover{
+    background-color: #ffffff;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #3498bd;
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resumeOutput h2 {
+    color: #2c3e50;
+}
+
+form p {
+    margin: 0;
+    padding: 0;
+}
+
+form p.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 0;
+}
